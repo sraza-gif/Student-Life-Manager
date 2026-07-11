@@ -235,3 +235,94 @@ footer{
     background-color: #1E40AF;
 
 }
+
+
+
+
+/* ===========================
+   Dashboard
+=========================== */
+
+.dashboard{
+
+    padding:60px;
+
+}
+
+.dashboard h2{
+
+    font-size:40px;
+
+    color:#1E293B;
+
+    margin-bottom:10px;
+
+}
+
+.dashboard p{
+
+    color:#64748B;
+
+    margin-bottom:40px;
+
+}
+.dashboard-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+.dashboard-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+
+}
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 10px 25px rgba(37,99,235,0.2);
+
+}
+.dashboard-card h3{
+
+    color:#2563EB;
+
+    margin-bottom:15px;
+
+}
+.dashboard-card p{
+
+    font-size:22px;
+
+    font-weight:600;
+
+    color:#1E293B;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
